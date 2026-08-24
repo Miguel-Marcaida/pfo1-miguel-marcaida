@@ -18,3 +18,5 @@ Primer proyecto de la materia Desarrollo de Sistemas Web: Frontend.
 - **Experiencia previa:** Media
 - **Uso:** Asistencia para estructurar el HTML, aplicar estilos CSS y guía en el flujo de trabajo con Git y Vercel.
 - **Decisiones propias:** El diseño visual, la elección de colores, la organización de secciones y la adaptación del código a mi estilo personal fueron definidas por mí.
+
+![Captura de la landing](img/captura-landing.png)
