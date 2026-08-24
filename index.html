@@ -4,16 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PFO1 - Miguel Marcaida</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>PFO1 - Miguel Marcaida</h1>
+    <header>
+      <h1>Miguel Marcaida</h1>
+      <p>Estudiante de Desarrollo Web</p>
+    </header>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#github">GitHub</a>
+    </nav>
+    <main>
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <img src="https://via.placeholder.com/150" alt="Foto de perfil de Miguel Marcaida">
+        <p>
+          Hola, soy Miguel. Estoy dando mis primeros pasos en el desarrollo
+          frontend y este es mi portafolio personal.
+        </p>
+      </section>
 
-    <p>
-      este es un proyecto de prueba para el curso de PFO1. Aquí se pueden
-      incluir detalles sobre el proyecto, su propósito y cualquier otra
-      información relevante que se desee compartir.
-    </p>
+      <section>
+        <h2>Habilidades</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript (básico)</li>
+        </ul>
+      </section>
 
-    <p>parrafo de prueba</p>
+      <section id="intereses">
+        <h2>Mis intereses</h2>
+        <ul>
+          <li>💻 Tecnología y desarrollo web</li>
+          <li>📚 Aprendizaje continuo</li>
+          <li>🎯 Proyectos creativos</li>
+        </ul>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+
+      <section id="github">
+        <h2>Mi GitHub</h2>
+        <p>Podés ver mi perfil acá:</p>
+        <a href="https://github.com/Miguel-Marcaida" target="_blank"
+          >github.com/Miguel-Marcaida</a
+        >
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 - Miguel Marcaida</p>
+    </footer>
   </body>
 </html>
